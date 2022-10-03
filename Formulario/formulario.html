@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="procesarformulario.php" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+        <p>Nombre:<br><input type="text" name="nombre" size="30"></p>
+        <p>Apellidos:<br><input type="text" name="apellidos" size="30"></p>
+        <p>Email:<br><input type="email" name="email" size="50" required="" placeholder="usuario@dominio"></p>
+        <p>Año de nacimiento:<br><input type="number" name="nacido" min="1950" size="15"></p>
+        <br><br>
+        <p>Lugar de nacimiento
+            <select name="lugaresdenacimiento" id="">
+                <optgroup label="">
+                    <option value="">...</option>
+                </optgroup>
+                <optgroup label="Cataluña">
+                    <option value="">Barcelona</option>
+                    <option value="">Tarragona</option>
+                    <option value="">Lleida</option>
+                </optgroup>
+                <optgroup label="Madrid">
+                    <option value="">Comunidad de Madrid</option>
+                </optgroup>
+                <optgroup label="Pais Vasco">
+                    <option value="">Bilbao</option>
+                </optgroup>
+            </select>
+        </p>
+        <br><br>
+        <p>Foto DNI:<br><input type="file" name="fotodni" size="2"></p>
+        <br><br>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Aficiones y gustos</legend>
+        <br><br>
+        <p>Deportes
+            <input type="checkbox" name="futbol">Fútbol
+            <input type="checkbox" name="baloncesto">Baloncesto
+            <input type="checkbox" name="badminton">Badminton
+            <input type="checkbox" name="esgrima">Esgrima
+        </p>
+        <br><br>
+        <p>Lugares favoritos visitados</p>
+        <select name="lugaresfavoritosvisitados" id="lugaresfavoritosvisitados" multiple>
+            <option value="Elige" selected></option>
+            <option value="Nueva York">Nueva York</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Portugal">Portugal</option>
+        </select>
+        <br><br>
+        <p>Juego Favorito<br><br>
+            <input type="radio" name="jf" value="Deltarune">Deltarune
+            <br>
+            <input type="radio" name="jf" value="Undertale">Undertale
+            <br>
+            <input type="radio" name="jf" value="Hollow Knight">Hollow Knight
+            <br>
+            <input type="radio" name="jf" value="Valorant">Valorant
+            <br>
+            <input type="radio" name="jf" value="cotl">Cult of the lamb
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>Extras</legend>
+        <br><br>
+        <p>Ubicación <br><br>
+            <select name="Ubicación">
+                <option value="0">...</option>
+                <option value="1">Logroño</option>
+                <option value="2">Bilbao</option>
+                <option value="3">Madrid</option>
+            </select>
+        </p>
+        <br>
+        <p> Comentarios que creas necesarios:<br><br>
+            <textarea name="comentarios" rows="4" cols="40" placeholder="Escribe tus comentarios :)"></textarea>
+            </textarea>
+        </p>
+    </fieldset><br>
+        <button>
+            <img src="img/images.jpeg" alt="camello" width="20" height="20">
+            Boton creado con la etiqueta button</button>
+        <br>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
