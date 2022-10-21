@@ -1,0 +1,24 @@
+
+
+header{
+    border: 3px blue solid;
+    height: 20% ;
+}
+
+nav{
+    border: 3px black solid;
+    height: 60% ;
+}
+
+footer{
+    border: 3px yellow solid;
+    height: 20% ;
+}
+
+li.menu{
+    list-style-type: none;
+    display: inline;
+    padding: 3px;
+    margin: 9px;
+    border: 1px blue solid;
+}
