@@ -1,0 +1,20 @@
+.parrafospares{
+    color:mediumpurple;
+}
+
+#parrafo1{
+    color:burlywood;
+}
+
+#parrafo3{
+    color: palevioletred;
+}
+
+p em{
+    background-color:aquamarine;
+}
+
+p.parrafonuevo{
+    font-style: oblique;
+    font-size: large;
+}

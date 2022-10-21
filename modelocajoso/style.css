@@ -1,0 +1,40 @@
+p.solid {
+    border: red 5px solid;
+}
+p.none {
+    border: red 5px none;
+}
+p.hidden {
+    border: red 5px hidden;
+}
+p.dotted {
+    border: rebeccapurple 5px dotted;
+}
+p.dashed {
+    border: seagreen 5px dashed;
+}
+p.double {
+    border: yellowgreen 5px double;
+}
+p.groove {
+    border: cyan 5px groove;
+}
+p.ridge {
+    border: purple 5px ridge;
+}
+p.inset {
+    border: orange 5px inset;
+}
+p.outset {
+    border: yellow 5px outset;
+}
+body {
+    border-style: solid;
+    border-width: 5px;
+}
+h1 {
+    border-style: dotted;
+}
+table{
+    border: violet 5px outset;
+}
