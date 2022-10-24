@@ -1,11 +1,15 @@
 /* Autor: Izan López Ortega */
 
 header p:first-child{
-    color: blueviolet;
+    background-color: blueviolet;
 }
 a:link{
     background-color: rgb(33, 210, 166);
 }
 a:visited{
     background-color: blueviolet;
+}
+a:hover{
+    background-color: greenyellow;
+    color: blueviolet;
 }
