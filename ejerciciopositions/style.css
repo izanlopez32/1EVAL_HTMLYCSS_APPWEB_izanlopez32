@@ -49,38 +49,30 @@
   }
   
   #li1 {
-    left: 20%;
+    left: 0%;
     position: absolute;
     top: 25%;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
     z-index: 10;
   }
   
   #li2 {
-    left: 30%;
+    left: 25%;
     position: absolute;
     top: 30%;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
     z-index: 6;
   }
   
   #li3 {
-    left: 40%;
+    left: 50%;
     position: absolute;
     top: 35%;
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
     z-index: 4;
   }
   
   #li4 {
-    left: 50%;
+    left: 75%;
     position: absolute;
     top: 40%;
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
     z-index: 2;
   }
   
